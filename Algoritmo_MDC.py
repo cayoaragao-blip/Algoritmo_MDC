@@ -1,6 +1,3 @@
-# Aplicação do algoritmo de Euclides para calcular o MDC (Máximo Divisor Comum) entre dois números
-
-
 # Atribuição de valores
 a = int(input("Digite um número inteiro: "))
 b = int(input("Digite outro número inteiro: "))
