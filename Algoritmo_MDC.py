@@ -12,7 +12,7 @@ def mdc(a, b):
         a, b = b, a%b
     return b
 
-# Função que executa o algoritmo de Euclides de modo recursivo
+# Função que executa o algoritmo de Euclides de forma recursiva
 def mdc_recursivo(a, b):
     if b == 0:
         return a
