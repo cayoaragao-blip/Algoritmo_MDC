@@ -1,4 +1,4 @@
-Algoritmo de Euclides: 
+# Algoritmo de Euclides: 
 Este projeto tem como finalidade aprensentar dois tipos de funções que executam de forma eficiente o algoritmo de Euclides, cuja função é encontrar o MDC (máximo divisor comum) entre dois números. Somado a isto, é implementado um sistema de benchmark para avaliar qual dos dois métodos é mais eficiente em larga escala (milhões de operações).
 
 🛠️ Tecnologias e Conceitos: 
@@ -18,5 +18,5 @@ Recursivo,10M,1.294,2.078
 
 Metodologia: O script benchmark.py foi executado em Python 3.x sem interações de I/O.
 
-# Como rodar o benchmark:
+## Como rodar o benchmark:
 python -m cProfile Algoritmo_MDC.py
