@@ -1,13 +1,9 @@
-# Atribuição de valores
-a = int(input("Digite um número inteiro: "))
-b = int(input("Digite outro número inteiro: "))
-
-
 # Função que executa o algoritmo de Euclides em um laço de repetição
 def mdc(a, b):
     while a%b != 0:
         a, b = b, a%b
     return b
+
 
 # Função que executa o algoritmo de Euclides de forma recursiva
 def mdc_recursivo(a, b):
@@ -16,8 +12,12 @@ def mdc_recursivo(a, b):
     else:
         return mdc(b, a%b)
 
-# Chamando a função e imprimindo o resultado no terminal
-resultado = mdc(a, b)
-print(f"O MDC destes números é {resultado}") 
 
-        
+# Benchmark para medir o tempo de execução das funções em um loop de dez milhões de operações
+def benchmark():
+    a, b = 1071, 462 
+    for _ in range(10_000_000):
+        mdc(a, b)
+        mdc_recursivo(a, b)
+
+benchmark()
