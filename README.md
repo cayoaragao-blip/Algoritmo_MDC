@@ -1,5 +1,5 @@
 # Algoritmo de Euclides: 
-Este projeto tem como finalidade aprensentar dois tipos de funções que executam de forma eficiente o algoritmo de Euclides, cuja função é encontrar o MDC (máximo divisor comum) entre dois números. Somado a isto, é implementado um sistema de benchmark para avaliar qual dos dois métodos é mais eficiente em larga escala (milhões de operações).
+Este projeto tem como finalidade aprensentar dois tipos de funções que executam de forma eficiente o algoritmo de Euclides, cuja função é encontrar o MDC (máximo divisor comum) entre dois números. Somado a isto, é implementado um sistema de benchmark para avaliar qual dos dois métodos é mais rápido em larga escala (milhões de operações).
 
 🛠️ Tecnologias e Conceitos: 
 Python 3.x e Lógica Matemática - Algoritmo de Euclides📋
